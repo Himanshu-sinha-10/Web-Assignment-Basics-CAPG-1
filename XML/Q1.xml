@@ -1,0 +1,37 @@
+<details>
+
+<friend>
+<sno>1</sno>
+<name>John Wick</name>
+<email>johnwick@gmail.com></email>
+<address>Kolkata, West Bengal</address>
+</friend>
+
+<friend>
+<sno>2</sno>
+<name>Robert Downey Jr.</name>
+<email>tonyStark@gmail.com></email>
+<address>Durgapur, West Bengal</address>
+</friend>
+
+<friend>
+<sno>3</sno>
+<name>Peter Parker</name>
+<email>spiderman@gmail.com></email>
+<address>Gaya, Bihar</address>
+</friend>
+
+<friend>
+<sno>4</sno>
+<name>Scott Derrickson</name>
+<email>strangedoc@gmail.com></email>
+<address>Patna, Bihar</address>
+</friend>
+
+<friend>
+<sno>5</sno>
+<name>Chris Evans</name>
+<email>captionamerica@gmail.com></email>
+<address>Mirzapur, Uttar Pradesh</address>
+</friend>
+</details>
