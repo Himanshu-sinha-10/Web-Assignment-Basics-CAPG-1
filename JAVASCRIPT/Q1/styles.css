@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.row .element-50 {
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+
+}
+
+.element-50 input {
+    width: 96%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row .element-100 {
+    display: block;
+    width: 100%;
+}
+
+.row .element-100 input {
+    width: 98%;
+}
+
+.row .element-100 textarea {
+    width: 98%;
+
+}
+
+input {
+    padding: 7px;
+    margin: 0;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: gray;
+
+}
+
+body {
+    color: gray;
+}
+
+.highlight {
+    color: red;
+}

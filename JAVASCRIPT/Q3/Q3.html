@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .container {
+            width: fit-content;
+            margin: 0 auto;
+        }
+
+        h1 {
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <label for="num1">1st Number:</label>
+        <input type="number" name="num1" id="num1">
+        <br>
+        <br>
+        <label for="num2">2nd Number:</label>
+        <input type="number" name="num2" id="num2">
+        <br>
+        <br>
+        <input id="btn-multiply" type="button" value="Multiply">
+        <input id="btn-divide" type="button" value="Divide">
+
+        <h3 id="result"></h3>
+    </div>
+
+   <script src="index.js"></script>
+</body>
+
+</html>

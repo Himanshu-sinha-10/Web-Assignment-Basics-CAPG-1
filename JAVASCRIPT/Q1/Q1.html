@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Reservation Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form action="#">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="element-100">
+                    <h1>Hotel Reservation</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="element-50 left">
+                    <label for="fname">First name<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="text" name="fname" id="fname" required>
+
+                </div>
+                <div class="element-50 right">
+                    <label for="">Last name<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="text" name="lname" id="lname" required>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="element-100">
+                    <label for="phone">Phone<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="number" name="phone" id="pnone" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                        required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="element-100">
+                    <label for="email">Email<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="element-50 left">
+                    <label for="arrival-date">Arrival date<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="date" name="arrival-date" id="arrival-date">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="element-50 left">
+                    <label for="departure-date">Departure date<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="date" name="departure-date" id="departure-date">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="element-50 left">
+                    <label for="noa">Number of adults<span class="highlight">*</span>:</label>
+                    <br>
+                    <input type="number" name="number" id="noa" required min="0" max="10">
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="element-50 left">
+                    <label for="noc">Number of children:</label>
+                    <br>
+                    <input type="number" name="numberOfChildren" id="noc" min="0" max="10">
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="element-100">
+                    <label for="comment">Questions/Comments:</label>
+                    <br>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="element-100">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
